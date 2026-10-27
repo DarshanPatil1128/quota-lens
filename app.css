@@ -1,0 +1,12 @@
+.method { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 28px; }
+.method h4 { font-size: 15px; margin-bottom: 6px; }
+.method p { color: var(--muted); font-size: 14px; }
+@media (max-width: 700px) { .method { grid-template-columns: 1fr; } }
+code { font-family: var(--mono); font-size: 12px; }
+.swing { display: inline-flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.swing .meter { width: 54px; }
+.deal-name { font-weight: 500; }
+.deal-acct { display: block; color: var(--muted); font-size: 12px; }
+.stale { color: var(--warn); font-size: 11px; margin-left: 4px; }
+td.deal-cell { white-space: normal; min-width: 170px; }
+#deals td, #deals th { padding-left: 10px; padding-right: 10px; }
